@@ -6,7 +6,7 @@ The main difference between this layout and normal QWERTY is that the punctuatio
 
 I created this on Windows and also have a version that works for Mac OS, but XKB is by far the most annoying to configure, so it's the only one in this repo so far. I can add the others on request.
 
-# XKB a.k.a. most Linuxes Installation
+# XKB Installation a.k.a. most Linuxes
 1. Copy the `prog` file to `/usr/share/X11/xkb/symbols` and copy `evdev.xml` to `/usr/share/X11/xkb/rules`.
 
 2. Add the new keyboard layout using your Desktop Environment
