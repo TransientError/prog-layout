@@ -4,7 +4,7 @@ This is a customized keyboard layout I created in college. I've decided to keep 
 
 The main difference between this layout and normal QWERTY is that the punctuation marks used commonly in programming are found in the number row. This pattern was inspired by [Programmer Dvorak](https://www.kaufmann.no/roland/dvorak/).
 
-I created this on Windows and also have a version that works for Mac OS, but XKB is by far the most annoying to configure, so it's the only one in this repo so far. I can add the others on request.
+I created this on Windows and also have a version that works for Mac OS, but XKB is by far the most annoying to configure. I can add MacOs on request.
 
 # XKB Installation a.k.a. most Linuxes
 1. Copy the `prog` file to `/usr/share/X11/xkb/symbols` and copy `evdev.xml` to `/usr/share/X11/xkb/rules`.
