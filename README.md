@@ -15,4 +15,12 @@ Caveats:
 - You don't really need to copy this particular `evdev.xml`. There is only a single entry in there for `prog` that is necessary, but I find it easier to copy the entire thing because I don't really use many keyboard layouts. This `evdev.xml` is what happened to be on my computer when I wrote this.
 - `evdev.xml` is overwritten from time to time when I upgrade my distro. So from every once in a while, you need to copy it back from here or re-add the entry for `prog`
 
+# Windows
+1. Install the old [Microsoft Keyboard Layout Creator](https://www.microsoft.com/en-us/download/details.aspx?id=102134)
+2. Open the klc file using that
+3. (Optional) In order to use the more convenient Windows 10 features for managing keyboards, you might want to change the language of this keyboard. I set it to English (US) in the klc file, which works okay, but to use the nice Windows 10 language switcher and the win+space keyboard shortcut, you need to mark it as a different language from your usual keyboard. You can change this under Project->Properties.
+4. Select to build the dll under the Project menu
+5. Look for the msi created by the layout creator (typically in ~/Documents)
+
+
 
